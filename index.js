@@ -1,1 +1,1 @@
-"use strict";
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports["default"]=void 0;var isLocalStorageSupported=function(){try{return window.localStorage.setItem("key","key"),window.localStorage.removeItem("key"),!0}catch(a){return!1}},safeStorage=function(a){return function(){if(isLocalStorageSupported()){var b;return(b=window.localStorage)[a].apply(b,arguments)}}},_default={getItem:safeStorage("getItem"),setItem:safeStorage("setItem"),removeItem:safeStorage("removeItem")};exports["default"]=_default;
