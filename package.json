@@ -1,0 +1,32 @@
+{
+  "name": "safe-storage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -o index.js --presets=@babel/env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maplessmann/safe-storage.git"
+  },
+  "keywords": [
+    "safe",
+    "storage"
+  ],
+  "author": "Matheus Plessmann <maplessmann@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maplessmann/safe-storage/issues"
+  },
+  "homepage": "https://github.com/maplessmann/safe-storage#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.11.5"
+  }
+}
